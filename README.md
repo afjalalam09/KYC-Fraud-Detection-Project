@@ -1,22 +1,33 @@
-# AI-Powered Identity Verification & Fraud Detection
-**Intern Name:** Afjal Alam
-**Batch:** 4
+# AI-Powered Identity Verification & Fraud Detection System 🕵️‍♂️✅
 
-## Project Overview
-This project uses Artificial Intelligence (AI) to verify identity documents like Aadhaar and PAN cards. It helps in detecting fraud automatically.
+## 📌 Project Overview
+This project is an **AI-based KYC (Know Your Customer) automation system**. It helps organizations verify user identities instantly by extracting details from ID cards (like Pan Card/Aadhar) and matching the user's live face with the ID photo to detect fraud.
 
-## My Contribution
-I worked on two main parts of this project:
+Unlike manual verification, which is slow and error-prone, this system uses **OCR (Optical Character Recognition)** and **Computer Vision** to provide results in seconds.
 
-### 1. AI & Coding (See 'ocr_engine.py')
-* I wrote the Python script to connect the OCR (Optical Character Recognition) engine.
-* This code takes an image and extracts text from it for verification.
+## 🚀 Key Features
+* **📄 Automated OCR:** Extracts Name, DOB, and ID Number from uploaded ID cards using **Tesseract OCR**.
+* **👤 Face Matching AI:** Compares the uploaded ID photo with a live uploaded selfie to check for identity mismatch.
+* **🛢️ Secure Database:** Stores verified user data securely in a **MySQL Database**.
+* **📊 Admin Dashboard:** A clean interface to view user details and verification status.
+* **🔒 Fraud Detection:** Automatically flags mismatches or unclear documents.
 
-### 2. Documentation & Testing (See 'Documentation' folder)
-* **Agile Planning:** I created the Sprint Backlog to plan the project tasks.
-* **Quality Assurance (QA):** I created the "Unit Test Plan" to check for errors in the code.
-* **Bug Tracking:** I maintained a "Defect Tracker" to list any issues found during testing.
+## 🛠️ Technology Stack
+* **Backend:** Python, Flask
+* **Database:** MySQL
+* **AI/ML:** OpenCV, Pytesseract (OCR), NumPy
+* **Frontend:** HTML, CSS
+* **Tools:** VS Code, Git/GitHub, Postman
 
-## Tools Used
-* Python (OpenCV, Pytesseract)
-* Excel (For Agile & Test Planning)
+## ⚙️ Installation & Setup
+
+### 1. Prerequisites
+* Python (3.x) installed.
+* MySQL Server installed.
+* **Tesseract OCR** installed on your system.
+    * *Windows users must add Tesseract path to Environment Variables.*
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/afjalalam09/KYC-Fraud-Detection-Project.git](https://github.com/afjalalam09/KYC-Fraud-Detection-Project.git)
+cd KYC-Fraud-Detection-Project
