@@ -1,0 +1,7 @@
+flask
+mysql-connector-python
+opencv-python
+pytesseract
+python-dotenv
+pandas
+fpdf
