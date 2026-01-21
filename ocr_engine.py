@@ -20,4 +20,5 @@ def extract_text(image):
 if __name__ == "__main__":
     print("--- AI Identity Verification System Started ---")
     print("Waiting for Aadhaar/PAN Card image...")
+
     # Placeholder for future image path input
